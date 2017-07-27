@@ -1,0 +1,72 @@
+---
+title: "Airline Sentimental Analysis"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Objective:
+Comparing US based airlines performance using twitter sentimental analysis
+
+### Project Problem: 
+Analyzing the US based airlines performances  by analyzing the  the tweets for positive/ negative sentiment  along with identifying how long it is taking for negative sentiment to convert into positive sentiment, analyze the sentiment analysis by region and find the issues behind the negative sentiment 
+
+### Data Format
+
+Data is obtained from the airline sentiment dataset from [Kaggle](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) 
+
+1.tweet_id  
+2.airline_sentiment 
+3.airline_sentiment_confidence 
+4.negativereason 
+5.negativereason_confidence 
+6.airline 
+7.airline_sentiment_gold
+8.name 
+9.negativereason_gold 
+10.retweet_count 
+11.text
+12.tweet_coord 
+13.tweet_created 
+14.tweet_location 
+15.user_timezone
+
+### Data Size and Type :
+The dataset is downloaded in the CSV format and there are 14641 records and the size of the file is 3.4 MB
+
+###R Packages : 
+
+tm a framework for text mining applications.
+
+topicmodels fit topic models with LDA and CTM. 
+
+wordcloud provides various word clouds
+
+wordnet an interface to the WordNet
+
+RTextTools automatic text classification via supervised learning 
+
+qdap transcript analysis, text mining and natural language processing
+
+sentimentr calculate text polarity sentiment 
+
+RSentiment analyse sentiment of English sentences 
+
+SentimentAnalysis dictionary-based sentiment analysis 
+
+sentiment140 Twitter sentiment text analysis 
+tm.plugin.dc a plug-in for package tm to support distributed text mining 
+
+tm.plugin.mail a plug-in for package tm to handle mail
+
+textir a suite of tools for inference about text documents and associated sentiment tau utilities for text analysis 
+
+textcat n-gram based text categorization 
+Rwordseg Chinese word segmentation usi
+
+### Solution
+
+Comparison of the data enables to understand the areas which airlines has to improve, implement the best practices across various attributes and provide better understanding of the customer 
+
